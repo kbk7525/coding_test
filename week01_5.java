@@ -1,0 +1,23 @@
+public class week01_5 {
+    public static void main(String[] args) {
+        week01_5_Solution s = new week01_5_Solution();
+        int[][] arr1 = {{1,4}, {3,2}, {4,1}};
+        int[][] arr2 = {{3,3}, {3,3}};
+        System.out.println(s.solution(arr1, arr2));
+    }
+}
+class week01_5_Solution {
+    public int[][] solution(int[][] arr1, int[][] arr2) {
+        int[][] answer = new int[arr1.length][arr2[0].length];
+        for(int i = 0; i < answer.length; i++) {
+            for (int j = 0; j < answer[0].length; j++) {
+                int sum = 0;
+                for (int k = 0; k < arr2.length; k++) {
+                    sum += arr1[i][k] * arr2[k][j];
+                }
+                answer[i][j] = sum;
+            }
+        }
+        return answer;
+    }
+}

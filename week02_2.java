@@ -3,7 +3,7 @@ import static java.util.Collections.sort;
 
 public class week02_2 {
     public static void main(String[] args) {
-        week04_2_Solution s = new week04_2_Solution();
+        week02_2_Solution s = new week02_2_Solution();
         int[] arr = {2,1,3,4,1};
         System.out.println(s.solution(arr));
     }

@@ -8,7 +8,7 @@ public class week02_2 {
         System.out.println(s.solution(arr));
     }
 }
-class week04_2_Solution {
+class week02_2_Solution {
     public int[] solution(int[] numbers) {
         int sum = 0;
         ArrayList<Integer> list = new ArrayList<>();

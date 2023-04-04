@@ -56,7 +56,7 @@ class w03_1_Solution {
                     e = m;
                 }
             }
-            answer[i] = list.size()-s;
+            answer[i] = list.size() - s;
         }
         return answer;
     }

@@ -18,7 +18,7 @@ class w5_2_Solution {
             //삼각형의 오른쪽
             dp[i][i] = dp[i-1][i-1] + triangle[i][i];
 
-            //중간
+            //중간부분
             for(int j = 1; j <= i; j++) {
                 dp[i][j] = Math.max(dp[i-1][j-1], dp[i-1][j]) + triangle[i][j];
             }

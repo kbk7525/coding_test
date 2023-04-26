@@ -25,7 +25,7 @@ class w04_4_Solution {
         for(int i = 0; i < plays.length; i++) {
             playMap.put(i, plays[i]);
         }
-        //각각의 맵을 리스트로 내림차순 정렬
+        //각각의 맵을 리스트로 내림차순으로 정렬
         ArrayList<String> genreList = new ArrayList<>(genreMap.keySet());
         Collections.sort(genreList, (o1, o2)->(genreMap.get(o2).compareTo(genreMap.get(o1))));
         ArrayList<Integer> playList = new ArrayList(playMap.keySet());

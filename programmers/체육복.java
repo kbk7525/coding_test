@@ -2,6 +2,7 @@ import java.util.*;
 class Solution {
     public int solution(int n, int[] lost, int[] reserve) {
         int answer = n-lost.length;
+        
         //정렬을 안해서 채점 통과가 안된것이 있었음
         Arrays.sort(lost);
         Arrays.sort(reserve);

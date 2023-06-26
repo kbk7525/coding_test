@@ -6,6 +6,7 @@ public class pgsd_week05_3 {
         System.out.println(s.solution(4,5,deliveries, pickups));
     }
 }
+
 class w05_3_Solution {
     public long solution(int cap, int n, int[] deliveries, int[] pickups) {
         long answer = 0;

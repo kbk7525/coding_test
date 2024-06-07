@@ -9,7 +9,6 @@ public class N번째큰수 {
         PriorityQueue<Integer> q = new PriorityQueue<>();
         List<Integer> list = new ArrayList<>();
         int n = Integer.parseInt(br.readLine());
-        int[][] arr = new int[n][n];
         for (int i = 0; i < n; i++) {
             StringTokenizer st = new StringTokenizer(br.readLine());
             for (int j = 0; j < n; j++) {
